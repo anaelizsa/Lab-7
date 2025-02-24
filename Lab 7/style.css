@@ -3,6 +3,7 @@ html {
     width: 100%;
   }
 
+
   
 #contactbody {
     margin: 5%;
@@ -23,6 +24,25 @@ html {
 #contactmain {
   text-align: center;
   background-color:lavenderblush;
+
+
+h1 {
+  color:blueviolet
+}
+
+h2 {
+  color:palevioletred
+}
+
+#aboutUsheader{
+  background-color: lavenderblush;
+}
+
+#aboutUsnav{
+  background-color: lavenderblush;
+}
+#aboutUsmain{
+  background-color: lavenderblush;
 }
 
 nav {
