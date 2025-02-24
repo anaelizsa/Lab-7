@@ -4,6 +4,18 @@ html {
   }
 
 
+  footer {
+    width: 100%;              
+    background-color: #CAD0C3;   
+    color: #A69360;             
+    padding: 15px;            
+    display: flex;            
+    flex-direction: column;   
+    align-items: center;      
+    justify-content: center;
+  }
+
+
   
 #contactbody {
     margin: 5%;
@@ -71,5 +83,6 @@ nav {
 .menu a:hover {
   color: burlywood;
 }
+
 
 
