@@ -2,6 +2,27 @@ html {
     height: 100%;
     width: 100%;
   }
+
+
+h1 {
+  color:blueviolet
+}
+
+h2 {
+  color:palevioletred
+}
+
+#aboutUsheader{
+  background-color: lavenderblush;
+}
+
+#aboutUsnav{
+  background-color: lavenderblush;
+}
+#aboutUsmain{
+  background-color: lavenderblush;
+}
+
 nav {
   background-color: papayawhip;
   padding: 10px;
