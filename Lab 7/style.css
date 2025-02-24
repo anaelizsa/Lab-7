@@ -3,6 +3,136 @@ html {
     width: 100%;
   }
 
+  
+  footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
+.footer-authors {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-authors li {
+    margin: 5px 0;
+}
+
+.footer-authors a {
+    color: #ffcc00;
+    text-decoration: none;
+}
+
+.footer-authors a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    margin-top: 10px;
+    font-size: 14px;
+    opacity: 0.8;
+}
+
+canvas
+
+/* Estilos generales */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fdf6f0; /* Fondo cálido */
+  color: #333;
+  margin: 0;
+  padding: 0;
+}
+
+/* Encabezado */
+header {
+  background-color: #42b32b;
+  color: white;
+  text-align: center;
+  padding: 20px;
+}
+
+/* Secciones */
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px;
+  margin: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.text {
+  width: 50%;
+}
+
+.image {
+  width: 40%;
+}
+
+.image img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+/* IMAGENES */
+#loto1 {
+  height: 100px;
+  width: 100px;
+}
+
+#rosa1 {
+  height: 100px;
+  width: 100px;
+}
+
+#cerezo1 {
+  height: 100px;
+  width: 100px;
+}
+
+#loto2 {
+  height: 100px;
+  width: 100px;
+}
+
+#rosa2 {
+  height: 100px;
+  width: 100px;
+}
+
+#cerezo2 {
+  height: 100px;
+  width: 100px;
+}
+
+#loto3 {
+  height: 100px;
+  width: 100px;
+}
+
+#rosa3 {
+  height: 100px;
+  width: 100px;
+}
+
+#cerezo3 {
+  height: 100px;
+  width: 100px;
+}
+
 
   footer {
     width: 100%;              
