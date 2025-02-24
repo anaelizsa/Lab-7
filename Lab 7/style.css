@@ -3,6 +3,7 @@ html {
     width: 100%;
   }
 
+
   footer {
     width: 100%;              
     background-color: #CAD0C3;   
@@ -13,5 +14,75 @@ html {
     align-items: center;      
     justify-content: center;
   }
+
+
+  
+#contactbody {
+    margin: 5%;
+    background: linear-gradient(pink, beige);
+}
+#contactheader{
+  background-color: pink;
+  text-align: center;
+
+}
+
+
+#contactnav ul li {
+  display: inline;
+  padding: 10px 15px; /* Agrega espacio alrededor del texto */
+}
+
+#contactmain {
+  text-align: center;
+  background-color:lavenderblush;
+
+
+h1 {
+  color:blueviolet
+}
+
+h2 {
+  color:palevioletred
+}
+
+#aboutUsheader{
+  background-color: lavenderblush;
+}
+
+#aboutUsnav{
+  background-color: lavenderblush;
+}
+#aboutUsmain{
+  background-color: lavenderblush;
+}
+
+nav {
+  background-color: papayawhip;
+  padding: 10px;
+  position: sticky;
+  z-index: 1000;
+}
+
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.menu li {
+  margin: 0 20px;
+}
+
+.menu a {
+  color: palevioletred;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px;
+}
+.menu a:hover {
+  color: burlywood;
+}
+
 
 
