@@ -2,6 +2,7 @@ html {
     height: 100%;
     width: 100%;
   }
+
   
 #contactbody {
     margin: 5%;
@@ -23,3 +24,32 @@ html {
   text-align: center;
   background-color:lavenderblush;
 }
+
+nav {
+  background-color: papayawhip;
+  padding: 10px;
+  position: sticky;
+  z-index: 1000;
+}
+
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.menu li {
+  margin: 0 20px;
+}
+
+.menu a {
+  color: palevioletred;
+  text-decoration: none;
+  font-size: 20px;
+  padding: 10px;
+}
+.menu a:hover {
+  color: burlywood;
+}
+
+
