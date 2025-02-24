@@ -3,3 +3,23 @@ html {
     width: 100%;
   }
   
+#contactbody {
+    margin: 5%;
+    background: linear-gradient(pink, beige);
+}
+#contactheader{
+  background-color: pink;
+  text-align: center;
+
+}
+
+
+#contactnav ul li {
+  display: inline;
+  padding: 10px 15px; /* Agrega espacio alrededor del texto */
+}
+
+#contactmain {
+  text-align: center;
+  background-color:lavenderblush;
+}
