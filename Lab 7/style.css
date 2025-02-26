@@ -136,8 +136,8 @@ footer {
 
   footer {
     width: 100%;              
-    background-color: #CAD0C3;   
-    color: #A69360;             
+    background-color: lavenderblush;   
+    color: palevioletred;             
     padding: 15px;            
     display: flex;            
     flex-direction: column;   
@@ -214,6 +214,9 @@ p {
   font-size: 20px;
   ;
 }
+.menu a:hover {
+  color: burlywood;
+}
 #menuInfo a:hover {
   color: #fc9d9a;
 }
@@ -221,5 +224,3 @@ p {
 .custom-navbar {
   background-color: #f9cda9 !important; /* Color personalizado */
 }
-
-
