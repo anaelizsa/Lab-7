@@ -158,10 +158,6 @@ footer {
 }
 
 
-#contactnav ul li {
-  display: inline;
-  padding: 10px 15px; /* Agrega espacio alrededor del texto */
-}
 
 #contactmain {
   text-align: center;
@@ -223,4 +219,16 @@ p {
 
 .custom-navbar {
   background-color: #f9cda9 !important; /* Color personalizado */
+}
+
+#contactinfosection {
+  margin: 5%;
+}
+
+#messagesection  {
+  margin: 10%;
+}
+
+#commentsection {
+  margin: 10%;
 }

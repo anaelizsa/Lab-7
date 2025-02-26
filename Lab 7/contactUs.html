@@ -5,29 +5,102 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
     <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
 </head>
 <body id="contactbody">
-    <header id="contactheader">
-        <h1>Contáctanos</h1>
-        <nav id="contactnav">
-            <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="aboutUs.html">About Us</a></li>
-            </ul>
-        </nav>
-    </header>
-    <main id="contactmain">
-        <h2>Ponte en contacto con nosotros</h2>
-        <p>Envianos un correo al <a href="contacto@whitelotus.com">whitelotus@gmail.com</a></p>
-        <p>O marcanos directamente al teléfono: <a href="5511223344">5511223344</a></p>
-        <br><br>
- 
-        <label>Dejanos tus comentarios</label><br>
-        <textarea id="data-entry" rows="7" cols="42"  placeholder="Deja tus comentarios aqui!"></textarea><br>
-        <input type="submit" value="Enviar">
-    </main>
+    <div class="row">
+        <div class="col-12">
+            <header id="contactheader">
+                <h1>Contáctanos</h1>
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                    <div class="container-fluid">
+                      <a class="navbar-brand" href="">White Lottus</a>
+                      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                      </button>
+                      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                          <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="index.html">Página Principal</a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" href="aboutUs.html">Sobre Nosotras</a>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Contenido de la página
+                            </a>
+                            <ul class="dropdown-menu">
+                              <li><a class="dropdown-item" href="#contactinfosection">Ponte en contácto con nosotros</a></li>
+                              <li><a class="dropdown-item" href="#messagesection">Envianos un mensaje</a></li>
+                              <li><hr class="dropdown-divider"></li>
+                              <li><a class="dropdown-item" href="#commentsection">Déjanos tus comentarios</a></li>
+                            </ul>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link disabled" aria-disabled="true">Info</a>
+                          </li>
+                        </ul>
+                        <form class="d-flex" role="search">
+                          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                          <button class="btn btn-outline-info" type="submit">Search</button>
+                        </form>
+                      </div>
+                    </div>
+                  </nav>
+            </header>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-2">
+            <p>ADDS</p>
+        </div>
+        <div class="col-8">
+            <main id="contactmain">
+                <section id="contactinfosection">
+                    <h2>Ponte en contacto con nosotros</h2>
+                    <p>Envianos un correo al <a href="contacto@whitelotus.com">contacto@whitelotus.com</a></p>
+                    <p>O marcanos directamente al teléfono: <a href="5511223344">5511223344</a></p>
+                </section>
+                <section id="messagesection">
+                    <form>
+                        <div class="mb-3">
+                          <label for="exampleInputEmail1" class="form-label">Email address</label>
+                          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                          <div id="emailHelp" class="form-text">No compartiremos tu email con nadie</div>
+                        </div>
+                        <div class="form-floating">
+                            <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea"></textarea>
+                            <label for="floatingTextarea">Ingresa tu mensaje aqui!</label>
+                        </div>
+                        <br>
+                        <div id="liveAlertPlaceholder"></div>
+                        <button type="button" class="btn btn-info" id="liveAlertBtn">Show live alert</button>
+                    </form>
+                </section>
+                <section id="commentsection">
+                    <label>Dejanos tus comentarios</label><br>
+                    <textarea id="data-entry" rows="7" cols="42"  placeholder="Deja tus comentarios aqui!"></textarea><br>
+                    <input type="submit" value="Enviar">
+                </section>
+            </main>
+        </div>
+        <div class="col-2">
+            <p>NEWS</p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-12">
+            <footer>
+                <p><strong>Autores:</strong> Ana Karen Godinez, Ana Paola Elizondo, Montse Pineda, Estefanía León, Diana Caballero, Daniela Contreras, Tamara Fernández</p>
+                <p>contacto@whitelotus.com</p>
+                <p>White Lotus</p>
+                <img src="./Pic/whitelotus.jpg" style="width: 250px; height: auto; margin-top: 10px;">
+            </footer>
+        </div>
+    </div>   
     <br><br>
-    <footer>
-    </footer>
+    <script src="script.js"></script>
 </body>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
 </html>
