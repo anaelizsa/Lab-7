@@ -188,7 +188,7 @@ h2 {
 }
 
 #menuInfo nav {
-  background-color: papayawhip;
+  background-color: #fc9d9a;
   padding: 10px;
   position: sticky;
   z-index: 1000;
@@ -205,14 +205,17 @@ h2 {
 }
 
 #menuInfo a {
-  color: palevioletred;
+  color: #f34365;
   text-decoration: none;
   font-size: 20px;
-  padding: 10px;
+  ;
 }
 #menuInfo a:hover {
-  color: burlywood;
+  color: #fc9d9a;
 }
 
+.custom-navbar {
+  background-color: #f9cda9 !important; /* Color personalizado */
+}
 
 
