@@ -6,8 +6,8 @@ html {
 
   footer {
     width: 100%;              
-    background-color: #CAD0C3;   
-    color: #A69360;             
+    background-color: lavenderblush;   
+    color: palevioletred;             
     padding: 15px;            
     display: flex;            
     flex-direction: column;   
@@ -83,6 +83,3 @@ nav {
 .menu a:hover {
   color: burlywood;
 }
-
-
-
