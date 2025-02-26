@@ -48,8 +48,8 @@ body {
 
 /* Encabezado */
 header {
-  background-color: #42b32b;
-  color: white;
+  background-color: #20c997 ; /* Equivalente a $green-500 */
+  color: var(--bs-light); /* Color de texto claro */
   text-align: center;
   padding: 20px;
 }
@@ -61,7 +61,7 @@ header {
   justify-content: space-between;
   padding: 20px;
   margin: 20px;
-  background-color: #fff;
+  background-color: #E1E3C3;
   border-radius: 10px;
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
 }
